@@ -1,11 +1,10 @@
 import turtle
 turtle.speed(10)
 turtle.bgcolor('white')
-turtle.pencolor('white')
-turtle.back(330)
-turtle.left(90)
-turtle.forward(250)
-turtle.right(180)
+turtle.penup()
+turtle.goto(-330,250)
+turtle.pendown()
+turtle.right(90)
 color = ['orange','white','green']
 for i in range(3):
     turtle.pencolor(color[i])
